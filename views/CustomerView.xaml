@@ -1,0 +1,42 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MetroRibbon.views"
+             xmlns:sales="clr-namespace:Restauration.App.Sales;assembly=Restauration.App"
+             xmlns:Customers="clr-namespace:Restauration.App.Customers;assembly=Restauration.App" x:Class="MetroRibbon.views.CustomerView"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+    <Grid Margin="10">
+       
+        <Grid Grid.Column="0" Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+           
+           
+            <TextBlock Grid.Row="0" Style="{StaticResource Header3}" Margin="5,0" VerticalAlignment="Center"
+                       Text="Liste des clients"/>
+          
+            <DataGrid Grid.Row="1" CanUserAddRows="False" AutoGenerateColumns="False" x:Name="InvoiceDg" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="*" Header="Créance" Binding="{Binding  Debt}"/>
+                    <DataGridTextColumn Width="*" Header="Nom" Binding="{Binding FirstName}"/>
+                    <DataGridTextColumn Width="*" Header="Prénom" Binding="{Binding LastName}"/>
+                    <DataGridTextColumn Width="*" Header="Tel" Binding="{Binding FirstName}"/>
+
+
+                </DataGrid.Columns>
+
+             
+
+            </DataGrid>
+
+        </Grid>
+
+    </Grid>
+</UserControl>

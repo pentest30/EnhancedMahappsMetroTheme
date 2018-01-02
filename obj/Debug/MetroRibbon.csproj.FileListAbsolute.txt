@@ -1,0 +1,137 @@
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\MetroRibbon.exe.config
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\MetroRibbon.exe
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\MetroRibbon.pdb
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\Autofac.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\Caliburn.Core.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\Caliburn.PresentationFramework.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\ControlzEx.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\EntityFramework.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\EntityFramework.SqlServer.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\Fluent.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\LoadingIndicators.WPF.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\MahApps.Metro.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\MahApps.Metro.IconPacks.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\Restauration.App.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\Restauration.Data.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\System.Windows.Interactivity.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\WPFLocalizeExtension.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\XAMLMarkupExtensions.dll
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\Restauration.App.pdb
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\Restauration.Data.pdb
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\Restauration.Data.dll.config
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\Autofac.xml
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\ControlzEx.pdb
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\EntityFramework.xml
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\EntityFramework.SqlServer.xml
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\Fluent.pdb
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\Fluent.xml
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\MahApps.Metro.pdb
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\MahApps.Metro.xml
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\MahApps.Metro.IconPacks.pdb
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\MahApps.Metro.IconPacks.xml
+E:\Code sources\MetroRibbon\MetroRibbon\bin\Debug\WPFLocalizeExtension.xml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.csprojResolveAssemblyReference.cache
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\checkboxstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\CustomAccent.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\expanderstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\gridsplitterstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\tabcontrolstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\textblockstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\App.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\MainWindow.g.cs
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\views\CreateEdiOrderView.g.cs
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\views\CustomerView.g.cs
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\views\OrderView.g.cs
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\App.g.cs
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon_MarkupCompile.cache
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon_MarkupCompile.lref
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\MainWindow.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\buttonstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\contextmenustyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\datagridstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\metrocirclebuttonstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\metroribbonstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\metrosearchboxstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\metrotogglestyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\metrotooltipstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\metrowindowstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\popuptogglestyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\shared.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\textboxstyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\resources\toolBarStyle.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\views\CreateEdiOrderView.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\views\CustomerView.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\views\OrderView.baml
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.g.resources
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.Properties.Resources.resources
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.csproj.GenerateResource.Cache
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.csproj.CoreCompileInputs.cache
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.exe
+E:\Code sources\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.pdb
+D:\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.csprojResolveAssemblyReference.cache
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\checkboxstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\CustomAccent.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\expanderstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\gridsplitterstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\tabcontrolstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\textblockstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\App.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\MainWindow.g.cs
+D:\MetroRibbon\MetroRibbon\obj\Debug\App.g.cs
+D:\MetroRibbon\MetroRibbon\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon_MarkupCompile.cache
+D:\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon_MarkupCompile.lref
+D:\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.exe
+D:\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.pdb
+D:\MetroRibbon\MetroRibbon\bin\Debug\MetroRibbon.exe.config
+D:\MetroRibbon\MetroRibbon\obj\Debug\views\CreateEdiOrderView.g.cs
+D:\MetroRibbon\MetroRibbon\obj\Debug\views\CustomerView.g.cs
+D:\MetroRibbon\MetroRibbon\obj\Debug\views\OrderView.g.cs
+D:\MetroRibbon\MetroRibbon\bin\Debug\MetroRibbon.exe
+D:\MetroRibbon\MetroRibbon\bin\Debug\MetroRibbon.pdb
+D:\MetroRibbon\MetroRibbon\bin\Debug\Autofac.dll
+D:\MetroRibbon\MetroRibbon\bin\Debug\Caliburn.Core.dll
+D:\MetroRibbon\MetroRibbon\bin\Debug\Caliburn.PresentationFramework.dll
+D:\MetroRibbon\MetroRibbon\bin\Debug\ControlzEx.dll
+D:\MetroRibbon\MetroRibbon\bin\Debug\EntityFramework.dll
+D:\MetroRibbon\MetroRibbon\bin\Debug\EntityFramework.SqlServer.dll
+D:\MetroRibbon\MetroRibbon\bin\Debug\Fluent.dll
+D:\MetroRibbon\MetroRibbon\bin\Debug\MahApps.Metro.dll
+D:\MetroRibbon\MetroRibbon\bin\Debug\MahApps.Metro.IconPacks.dll
+D:\MetroRibbon\MetroRibbon\bin\Debug\System.Windows.Interactivity.dll
+D:\MetroRibbon\MetroRibbon\bin\Debug\WPFLocalizeExtension.dll
+D:\MetroRibbon\MetroRibbon\bin\Debug\XAMLMarkupExtensions.dll
+D:\MetroRibbon\MetroRibbon\bin\Debug\Autofac.xml
+D:\MetroRibbon\MetroRibbon\bin\Debug\ControlzEx.pdb
+D:\MetroRibbon\MetroRibbon\bin\Debug\EntityFramework.xml
+D:\MetroRibbon\MetroRibbon\bin\Debug\EntityFramework.SqlServer.xml
+D:\MetroRibbon\MetroRibbon\bin\Debug\Fluent.pdb
+D:\MetroRibbon\MetroRibbon\bin\Debug\Fluent.xml
+D:\MetroRibbon\MetroRibbon\bin\Debug\MahApps.Metro.pdb
+D:\MetroRibbon\MetroRibbon\bin\Debug\MahApps.Metro.xml
+D:\MetroRibbon\MetroRibbon\bin\Debug\MahApps.Metro.IconPacks.pdb
+D:\MetroRibbon\MetroRibbon\bin\Debug\MahApps.Metro.IconPacks.xml
+D:\MetroRibbon\MetroRibbon\bin\Debug\Restauration.App.pdb
+D:\MetroRibbon\MetroRibbon\bin\Debug\Restauration.Data.pdb
+D:\MetroRibbon\MetroRibbon\bin\Debug\WPFLocalizeExtension.xml
+D:\MetroRibbon\MetroRibbon\obj\Debug\MainWindow.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\buttonstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\contextmenustyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\datagridstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\metrocirclebuttonstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\metroribbonstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\metrosearchboxstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\metrotogglestyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\metrotooltipstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\metrowindowstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\popuptogglestyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\shared.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\textboxstyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\resources\toolBarStyle.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\views\CreateEdiOrderView.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\views\CustomerView.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\views\OrderView.baml
+D:\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.g.resources
+D:\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.Properties.Resources.resources
+D:\MetroRibbon\MetroRibbon\obj\Debug\MetroRibbon.csproj.GenerateResource.Cache

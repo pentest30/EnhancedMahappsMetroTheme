@@ -1,0 +1,106 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MetroRibbon.views"
+             xmlns:Buys="clr-namespace:Restauration.App.Buys;assembly=Restauration.App" xmlns:Sales="clr-namespace:Restauration.App.Sales;assembly=Restauration.App"
+    xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+    xmlns:converters="clr-namespace:MetroRibbon.converters"
+    xmlns:helpers="clr-namespace:MetroRibbon.helpers"
+    x:Class="MetroRibbon.views.OrderView"
+             mc:Ignorable="d" Loaded="OrderView_OnLoaded" 
+             >
+    <UserControl.Resources>
+
+        <converters:Nan2Visible x:Key="Nan2Visible"/>
+        <converters:Visible2Enable x:Key="Visible2Enable"/>
+        <converters:Visible2NDisable x:Key="Visible2Disable"/>
+    </UserControl.Resources>
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+           <StackPanel >
+               <TextBlock  Style="{StaticResource Header3}" Margin="5,0" VerticalAlignment="Center"
+                          Text="Commandes"/>
+               <Separator/>
+               <ToolBarTray >
+                   <ToolBar >
+                        <helpers:MetroCircleButton  
+                                                   Margin="2" Style="{StaticResource MetroCircleButtonBase}" Content="Ajout" x:Name="AddOrderBtn" Click="AddOrderBtn_OnClick" IconKind="Plus" />
+                        <helpers:MetroCircleButton IsEnabled="{Binding Visibility, Converter={StaticResource Visible2Disable}, ElementName=InvoiceDg , Path=SelectedItem}" Margin="2"  Style="{StaticResource MetroCircleButtonBase}" Content="Ajout" IconKind="Pencil" />
+                        <helpers:MetroCircleButton Margin="2" IsEnabled="{Binding Visibility, Converter={StaticResource Visible2Disable}, ElementName=InvoiceDg , Path=SelectedItem}"  Style="{StaticResource MetroCircleButtonBase}" Content="Ajout" IconKind="Delete" />
+                        <helpers:MetroCircleButton Margin="2"  Style="{StaticResource MetroCircleButtonBase}" Content="Ajout" IconKind="Printer" IsEnabled="{Binding Visibility, Converter={StaticResource Visible2Disable}, ElementName=InvoiceDg , Path=SelectedItem}"/>
+
+
+                    </ToolBar>
+               </ToolBarTray>
+               <Separator/>
+            </StackPanel>
+            <DataGrid Grid.Row="1" CanUserAddRows="False" AutoGenerateColumns="False" x:Name="InvoiceDg" SelectionChanged="InvoiceDg_OnSelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="*" Header="N° commande" Binding="{Binding InvoiceNumber }"/>
+                    <DataGridTextColumn Width="*" Header="Date" Binding="{Binding Date}"/>
+                    <DataGridTextColumn Width="*" Header="Net" Binding="{Binding Total}"/>
+                    <DataGridTextColumn Width="*" Header="TTC" Binding="{Binding TTC}"/>
+                    <DataGridTextColumn Width="*" Header="La somme" Binding="{Binding PaidAmmout}"/>
+                    <DataGridTextColumn Width="*" Header="Reste à payer" Binding="{Binding LeftToPay}"/>
+                    <DataGridTextColumn Width="*" Header="Etat" Binding="{Binding OrderStatus}"/>
+                </DataGrid.Columns>
+
+            </DataGrid>
+            <Grid Grid.Row="2" >
+               <Grid.RowDefinitions>
+                   <RowDefinition/>
+                   <RowDefinition/>
+                   <RowDefinition/>
+               </Grid.RowDefinitions>
+               <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                   <ColumnDefinition/>
+               </Grid.ColumnDefinitions>
+               <Label FontSize="14">TOTAL Net:</Label>
+               <TextBlock Margin="0,5" Foreground="DarkGreen" FontSize="14" Grid.Row="0" Grid.Column="1" Name="NetTxtBlock"/>
+               <Label Grid.Row="1" Grid.Column="0" FontSize="14">TOTAL TTC:</Label>
+                <TextBlock Margin="0,5"  FontSize="14" Foreground="DarkGreen" Grid.Row="1" Grid.Column="1" Name="TtcTxtBlock"/>
+                <Label Grid.Row="2" Grid.Column="0" FontSize="14">Somme reste:</Label>
+                <TextBlock Margin="0,5"  FontSize="14" Foreground="OrangeRed" Grid.Row="2" Grid.Column="1" Name="LeftTxtBlock"/>
+            </Grid>
+        </Grid>
+        <GridSplitter Grid.Column="1" Style="{StaticResource VSplitter}"></GridSplitter>
+        <Grid Grid.Column="2" Margin="5"  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+           <StackPanel>
+               <TextBlock  Style="{StaticResource Header3}" Margin="5,0" VerticalAlignment="Center"
+                          Text="Détails"/>
+               <Separator/>
+           </StackPanel>
+            <DataGrid Grid.Row="1" x:Name="InvoiceItemDg" AutoGenerateColumns="False" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="*" Header="Nom" Binding="{Binding  Food.Name}"/>
+                    <DataGridTextColumn Width="*" Header="Quantité" Binding="{Binding Qnt}"/>
+                    <DataGridTextColumn Width="*" Header="Prix" Binding="{Binding UnitPrice}"/>
+
+                    <DataGridTextColumn Width="*" Header="Net" Binding="{Binding Total}"/>
+                    <DataGridTextColumn Width="*" Header="TTC" Binding="{Binding TTC}"/>
+
+                </DataGrid.Columns>
+               
+
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>
